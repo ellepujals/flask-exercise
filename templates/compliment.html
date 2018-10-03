@@ -1,0 +1,26 @@
+<!-- <!doctype html>
+<html>
+<head>
+  <title>A Compliment</title>
+</head>
+<body> -->
+    Hi {{ person }}! 
+   	You're so :
+    <ul>
+    {% for compliment in compliments %}
+        <li>{{ compliment }}</li>
+    {% endfor %}
+    </ul>
+
+
+
+
+<!--     Do you want to play a game? <br> 
+    <form action='/game'>
+    Yes<input type="radio" name="yesorno" value="yes">
+    No<input type="radio" name="yesorno" value="no">
+    <input type="hidden" name="person" value="{{ person }}">
+    <input type="submit">
+    </form>
+</body>
+</html> -->

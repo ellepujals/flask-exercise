@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	Pick a color, noun, and an adjective from the options below:
+	<form action="/madlib">
+		<select name="colorchoice">
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+		</select>
+
+		<select name="nounchoice">
+			<option value="car">Car</option>
+			<option value="van">Van</option>
+			<option value="bus">Bus</option>
+		</select>
+
+		<select name="adjectivechoice">
+			<option value="funny">Funny</option>
+			<option value="happy">Happy</option>
+			<option value="silly">Silly</option>
+		</select>
+		<input type="hidden" name="person" value="{{ person }}">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
